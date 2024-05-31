@@ -1,8 +1,8 @@
 <?php
 
-$server = "localhost";
-$username = "root";
-$password = "";
+$server = "dbbloging.mysql.database.azure.com";
+$username = "albatin";
+$password = "Grupi7123";
 $dbname = "blog_platform";
 $conn = new mysqli($server, $username, $password, $dbname);
 if ($conn->connect_error) {
